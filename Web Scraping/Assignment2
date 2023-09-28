@@ -1,0 +1,116 @@
+ASSIGNMENT 2
+Instructions
+WEB SCRAPING – ASSIGNMENT 2
+1. All the questions must be done in a single Jupyternotebook.
+2. There should be proper commentsincode.
+Q1: Write a python program to scrape data for “Data Analyst” Job position in “Bangalore” location. You
+have to scrape the job-title, job-location, company_name, experience_required. You have to scrape first 10
+jobs data.
+This task will be done in following steps:
+1. First get the webpage https://www.naukri.com/
+2. Enter “Data Analyst” in “Skill, Designations, Companies” field and enter “Bangalore” in “enter the
+location” field.
+3. Then click the searchbutton.
+4. Then scrape the data for the first 10 jobs results youget.
+5. Finally create a dataframe of the scraped data.
+Note: All of the above steps have to be done in code. No step is to be done manually.
+Q2:Write a python program to scrape data for “Data Scientist” Job position in “Bangalore” location. You
+have to scrape the job-title, job-location, company_name. You have to scrape first 10 jobs data.
+This task will be done in following steps:
+1. First get the webpage https://www.naukri.com/
+2. Enter “Data Scientist” in “Skill, Designations, Companies” field and enter “Bangalore” in “enter the
+location” field.
+3. Then click the searchbutton.
+4. Then scrape the data for the first 10 jobs results youget.
+5. Finally create a dataframe of the scraped data.
+Note: All of the above steps have to be done in code. No step is to be done manually.
+Q3: In this question you have to scrape data using the filters available on the webpage as shown below:
+ASSIGNMENT 2
+You have to use the location and salary filter.
+You have to scrape data for “Data Scientist” designation for first 10 job results.
+You have to scrape the job-title, job-location, company name, experience required.
+The location filter to be used is “Delhi/NCR”. The salary filter to be used is “3-6” lakhs
+The task will be done as shown in the below steps:
+1. first get thewebpage https://www.naukri.com/
+2. Enter “Data Scientist” in “Skill, Designations, and Companies” field.
+3. Then click the searchbutton.
+4. Then apply the location filter and salary filter by checking the respectiveboxes
+5. Then scrape the data for the first 10 jobs results youget.
+6. Finally create a dataframe of the scrapeddata.
+Note: All of the above steps have to be done in code. No step is to be done manually.
+Q4: Scrape data of first 100 sunglasses listings on flipkart.com. You have to scrape four attributes:
+1. Brand
+2. ProductDescription
+3. Price
+The attributes which you have to scrape is ticked marked in the below image.
+To scrape the data you have to go through following steps:
+1. Go to Flipkart webpage by url :https://www.flipkart.com/
+2. Enter “sunglasses” in the search field where “search for products, brands and more” is written and
+click the search icon
+3. After that you will reach to the page having a lot of sunglasses. From this page you can scrap the
+required data asusual.
+As shown in the above page you have to scrape the tick marked attributes. These are:
+1. Rating
+2. Review summary
+3. Full review
+4. You have to scrape this data for first 100reviews.
+Note: All the steps required during scraping should be done through code only and not manually.
+Q6: Scrape data forfirst 100 sneakers you find when you visit flipkart.com and search for “sneakers” in the
+search field.
+You have to scrape 3 attributes of each sneaker:
+1. Brand
+2. ProductDescription
+3. Price
+As shown in the below image, you have to scrape the above attributes.
+ASSIGNMENT 2
+4. After scraping data from the first page, go to the “Next” Button at the bottom other page , then
+click on it.
+5. Now scrape data from this page asusual
+6. Repeat this until you get data for 100sunglasses.
+Note: That all of the above steps have to be done by coding only and not manually.
+Q5: Scrape 100 reviews data from flipkart.com for iphone11 phone. You have to go the link:
+https://www.flipkart.com/apple-iphone-11-black-64-gb/productreviews/itm4e5041ba101fd?pid=MOBFWQ6BXGJCEYNY&lid=LSTMOBFWQ6BXGJCEYNYZXSHRJ&market
+place=FLIPKART
+Elemronies -
+wear
+Footwear
+TVs&Appliances Men Women Baby&Kids Home&Furniture
+Showing J — 40 of 13,910 results for "sneakers"
+Sort By Relevance Popularity Price — Low 1o Higfi Price — High to Low Newest Firs1
+Sports,Books & More Rights Ofl
+o 73000+
+BRUTON
+Combo Pack Of 3 Latest Ca...
+T557 76% off
+BRUTON
+2 Combo Sneaker Shoes Sn...@$ gBB
+ASTEROID
+Original Luxury Branded Fa... @$ }BBg
+ASSIGNMENT 2
+Q7: Go to webpage https://www.amazon.in/ Enter “Laptop” in the search field and then click the search icon. Then
+set CPU Type filter to “Intel Core i7” as shown in the below image:
+After setting the filters scrape first 10 laptops data. You have to scrape 3 attributes for each laptop:
+1. Title
+2. Ratings
+3. Price
+Q8: Write a python program to scrape data for Top 1000 Quotes of All Time.
+The above task will be done in following steps:
+1. First get the webpagehttps://www.azquotes.com/
+2. Click on TopQuotes
+3. Than scrap a) Quote b) Author c) Type Of Quotes
+ASSIGNMENT 2
+Q9: Write a python program to display list of respected former Prime Ministers of India(i.e. Name, Born-Dead,
+Term of office, Remarks) from https://www.jagranjosh.com/.
+This task will be done in following steps:
+1. First get the webpagehttps://www.jagranjosh.com/
+2. Then You have to click on the GK option
+3. Then click on the List of all Prime Ministers of India
+4. Then scrap the mentioned data and make theDataFrame.
+ASSIGNMENT 2
+Q10: Write a python program to display list of 50 Most expensive cars in the world (i.e.
+Car name and Price) from https://www.motor1.com/
+This task will be done in following steps:
+1. First get the webpagehttps://www.motor1.com/
+2. Then You have to type in the search bar ’50 most expensive cars’
+3. Then click on 50 most expensive carsin the world..
+4. Then scrap the mentioned data and make the dataframe.
