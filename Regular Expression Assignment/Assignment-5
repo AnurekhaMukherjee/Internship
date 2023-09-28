@@ -1,1 +1,83 @@
+Regular Expressions
+
+Question 1- Write a Python program to check that a string contains only a certain set of characters (in this case a-z, A-Z and 0-9).
+
+Question 2- Create a function in python that matches a string that has an a followed by zero or more b's
+
+Question 3-  Create a function in python that matches a string that has an a followed by one or more b's
+
+Question 4- Create a function in Python and use RegEx that matches a string that has an a followed by zero or one 'b'.
+
+Question 5- Write a Python program that matches a string that has an a followed by three 'b'.
+
+Question 6- Write a regular expression in Python to split a string into uppercase letters.
+Sample text: “ImportanceOfRegularExpressionsInPython”
+Output: [‘Importance’, ‘Of’, ‘Regular’, ‘Expression’, ‘In’, ‘Python’]
+
+Question 7- Write a Python program that matches a string that has an a followed by two to three 'b'.
+
+Question 8- Write a Python program to find sequences of lowercase letters joined with a underscore.
+
+Question 9- Write a Python program that matches a string that has an 'a' followed by anything, ending in 'b'.
+Question 10- Write a Python program that matches a word at the beginning of a string.
+
+Question 11- Write a Python program to match a string that contains only upper and lowercase letters, numbers, and underscores.
+
+Question 12- Write a Python program where a string will start with a specific number. 
+
+Question 13- Write a Python program to remove leading zeros from an IP address
+
+Question 14- Write a regular expression in python to match a date string in the form of Month name followed by day number and year stored in a text file.
+Sample text : ' On August 15th 1947 that India was declared independent from British colonialism, and the reins of control were handed over to the leaders of the Country’.
+Output- August 15th 1947
+Hint- Use re.match() method here
+
+Question 15- Write a Python program to search some literals strings in a string. Go to the editor
+Sample text : 'The quick brown fox jumps over the lazy dog.'
+Searched words : 'fox', 'dog', 'horse'
+
+Question 16- Write a Python program to search a literals string in a string and also find the location within the original string where the pattern occurs
+Sample text : 'The quick brown fox jumps over the lazy dog.'
+Searched words : 'fox'
+
+Question 17- Write a Python program to find the substrings within a string.
+Sample text : 'Python exercises, PHP exercises, C# exercises'
+Pattern : 'exercises'.
+
+Question 18- Write a Python program to find the occurrence and position of the substrings within a string.
+
+Question 19- Write a Python program to convert a date of yyyy-mm-dd format to dd-mm-yyyy format.
+
+Question 20- Write a Python program to find all words starting with 'a' or 'e' in a given string.
+
+Question 21- Write a Python program to separate and print the numbers and their position of a given string.
+
+Question 22- Write a regular expression in python program to extract maximum numeric value from a string
+
+Question 23- Write a Regex in Python to put spaces between words starting with capital letters
+
+Question 24- Python regex to find sequences of one upper case letter followed by lower case letters
+
+Question 25- Write a Python program to remove duplicate words from Sentence using Regular Expression
+Question 26-  Write a python program using RegEx to accept string ending with alphanumeric character.
+
+Question 27-Write a python program using RegEx to extract the hashtags.
+Sample Text: text = """RT @kapil_kausik: #Doltiwal I mean #xyzabc is "hurt" by #Demonetization as the same has rendered USELESS <ed><U+00A0><U+00BD><ed><U+00B1><U+0089> "acquired funds" No wo"""
+Output: ['#Doltiwal', '#xyzabc', '#Demonetization']
+
+Question 28- Write a python program using RegEx to remove <U+..> like symbols
+Check the below sample text, there are strange symbols something of the sort <U+..> all over the place. You need to come up with a general Regex expression that will cover all such symbols.
+Sample Text: "@Jags123456 Bharat band on 28??<ed><U+00A0><U+00BD><ed><U+00B8><U+0082>Those who  are protesting #demonetization  are all different party leaders"
+Output: @Jags123456 Bharat band on 28??<ed><ed>Those who  are protesting #demonetization  are all different party leaders
+
+Question 29- Write a python program to extract dates from the text stored in the text file.
+Sample Text: Ron was born on 12-09-1992 and he was admitted to school 15-12-1999.
+Store this sample text in the file and then extract dates.
+Question 30- Write a Python program to replace all occurrences of a space, comma, or dot with a colon.
+Sample Text- 'Python Exercises, PHP exercises.'
+Output: Python:Exercises::PHP:exercises:
+
+
+
+
 
